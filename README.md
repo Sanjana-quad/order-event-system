@@ -8,6 +8,7 @@
 ~ It captures simulated order events (like order_created, payment_done, shipped, delivered) from a Kafka producer, processes them through a consumer, updates PostgreSQL, and exposes live analytics via a FastAPI REST API and /metrics endpoint for Grafana monitoring.
 
 ### ⚙️ Tech Stack
+
 | Component | Technology |
 | Programming Language | Python |
 | Message Broker | Apache Kafka (Docker Compose) |
